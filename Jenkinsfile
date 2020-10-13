@@ -9,7 +9,7 @@ spec:
   - name: shell
     image: node:6-alpine
     args:
-    -'-p 3000:3000'
+    - -p 3000:3000
 '''
             // Can also wrap individual steps:
             // container('shell') {
