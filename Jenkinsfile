@@ -8,6 +8,9 @@ spec:
   containers:
   - name: shell
     image: node:6-alpine
+    command:
+    - cat
+    tty: true
 '''
             // Can also wrap individual steps:
             // container('shell') {
