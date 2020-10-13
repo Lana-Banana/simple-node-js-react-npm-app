@@ -12,10 +12,6 @@ spec:
     - cat
     tty: true
 '''
-            // Can also wrap individual steps:
-            // container('shell') {
-            //     sh 'hostname'
-            // }
             defaultContainer 'shell'
         }
     }
