@@ -67,7 +67,7 @@ spec:
                 '''
             }
         }
-        Stage('Input') {
+        stage('Input') {
             steps {
                 input message: 'Finished using the web site? (Click "Proceed" to continue)'
             }
@@ -85,5 +85,3 @@ spec:
         }
     }
 }
-
-
