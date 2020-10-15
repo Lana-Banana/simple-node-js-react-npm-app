@@ -20,6 +20,15 @@ spec:
             steps {
                 sh 'npm install' 
             }
+            steps {
+                sh 'npm build' 
+            }
+            steps {
+                sh '''
+                pwd
+                ls -al
+                '''
+            }
         }
         stage('Deliver') {
             steps {
